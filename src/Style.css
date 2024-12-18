@@ -1,0 +1,56 @@
+.progress_bg{
+    background-image: url('https://www.swasthyahospital.com/img/figure/figure1.jpg');
+    background-size: cover;
+    
+}
+.progress_box{
+    background-color: rgba(0, 0, 255, 0.54);
+}
+
+ 
+
+.Bg_BreadCum{
+    background-image: url('https://www.swasthyahospital.com/img/figure/figure2.jpg');
+    background-size: 100% 100%;
+
+}
+
+.card_hover{
+    visibility: hidden;
+}
+
+.gallerycardbox:hover{
+    overflow: hidden;
+    .card_hover{
+        visibility: visible;
+        background-color: hsla(223, 85%, 62%, 0.679);
+        /* opacity: 50%; */
+        color: white;
+        h5{
+            font-size: 24px;
+        }
+        p{
+            font-size: 18px;
+        }
+        i{
+            font-size: 30px;
+            float: right;
+        }
+    }
+     img{
+        /* scale: 1.05; */
+        /* transform: scale(1.1); */
+        transition: all 300ms ease-in-out;
+    transform: scale(1.1);
+    }
+}
+
+@media (max-width:768px) {
+    .Header{
+        display: none;
+    }
+}
+
+.footer_links{
+    list-style-type:none;
+}
